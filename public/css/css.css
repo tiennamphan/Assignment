@@ -1,0 +1,24 @@
+.css1 {
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Thêm hiệu ứng transition */
+}
+
+.css1:hover {
+    transform: translateY(-5px);
+    /* Di chuyển phần tử lên */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    /* Thêm đổ bóng */
+}
+
+.css2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css3 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
